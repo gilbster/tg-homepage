@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v10/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  }
+  
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v10/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  }
+  
+  html,
+  body {
+    min-height: 100%;
+  }
+  
+  body {
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: "Oswald", sans;
+    font-size: 3rem;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: #999;
+    padding: 30px 0 0;
+    margin: 0px;
+  }
+  section {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 1rem;
+  }
+
+  .container {
+    background: white;
+    border-radius: 5px;
+    max-width: 700px;
+    margin: 0px auto 30px;
+       
+  }
+  .container:hover {
+    box-shadow:
+    0 3.9px 2.2px -2px rgba(0, 0, 0, 0.042),
+    0 9.3px 5.3px -2px rgba(0, 0, 0, 0.055),
+    0 17.5px 10px -2px rgba(0, 0, 0, 0.064),
+    0 31.3px 17.9px -2px rgba(0, 0, 0, 0.074),
+    0 58.5px 33.4px -2px rgba(0, 0, 0, 0.088),
+    0 140px 80px -2px rgba(0, 0, 0, 0.13)
+  ;
+  }
+  
+  .container-content {
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  p {
+    margin: 0 0 1em;
+  }
+  
+  a {
+    color: DeepSkyBlue;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgba(9,9,121,1);
+    text-decoration: underline;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .container-definition .container-content {
+    min-height: 0px;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 100;
+    color: #444;
+  }
